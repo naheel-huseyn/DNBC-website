@@ -22,11 +22,128 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-   
+   <style>
+    .news-ticker {
+      background: #f32828;
+      color: #000;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .news-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
     
     <header class="header"></header>
+    <header class="text-darl text-white text-center py-4" style="background-color: #f32828;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold text-dark">Shanghai News Headlines</h1>
+      <p class="lead text-dark" style="font-family: sans-serif;">Business, Sports, Food, Weather, Education, Health, Technology & more from China’s financial hub</p>
+    </div>
+  </header>
+     <!-- Business -->
+      <div class="col-12 mb-4 text-center">
+        <h2>Business</h2>
+        <p>Shangai Stock Exchange showed a mixed performance today as the tech and automotive sectors rebounded sharply. Investors remain cautiously optimistic with foreign capital inflows rising in Q2. Japanese yen gains slightly against the USD as global confidence in the Shangai economy grows.</p>
+        <p>Major companies like Sony and Toyota announced new investment strategies, targeting overseas markets and innovations in green energy. The Shangai government is also introducing new tax incentives to encourage local startups to flourish in an increasingly digital world.</p>
+      </div>
+      <!-- Scrolling Headline -->
+  <div class="news-ticker">
+    <div class="news-ticker-text">
+      Breaking: Shanghai Tech Expo 2025 opens to record crowds | Heavy rain warning issued for Pudong district | Shanghai Sharks make playoff comeback | Stay updated with DNBC News Shanghai
+    </div>
+  </div> 
+
+      <div class="container my-5">
+    <div class="row">
+      <!-- Business -->
+      <div class="col-md-6 mb-4">
+        <h2>Business</h2>
+        <img src="assets/images/business-shangai.jpg" class="news-image" alt="Shanghai Business">
+        <p>Shanghai’s financial district is witnessing rapid growth, with the Shanghai Stock Exchange reporting record trading volumes. The city is emerging as a major hub for green finance and digital yuan experimentation, attracting investors globally.</p>
+      </div>
+
+      <!-- Sports -->
+      <div class="col-md-6 mb-4">
+        <h2>Sports</h2>
+        <img src="assets/images/sports-shangai.png" class="news-image" alt="Shanghai Sports">
+        <p>The Shanghai Sharks have made a dramatic return to the playoffs. Youth sports leagues are gaining momentum in schools, and new government-funded sports complexes are opening to promote community health and fitness.</p>
+      </div>
+
+      <!-- Food -->
+      <div class="col-md-6 mb-4">
+        <h2>Food</h2>
+        <img src="assets/images/food-shangai.jpg" class="news-image" alt="Shanghai Food">
+        <p>From soup dumplings to haute cuisine, Shanghai’s culinary diversity is on full display. International chefs are teaming up with local talent to present gourmet fusion dishes, drawing food lovers from across the world.</p>
+      </div>
+
+      <!-- Weather -->
+      <div class="col-md-6 mb-4">
+        <h2>Weather</h2>
+        <img src="assets/images/weather-shangai.jpg" class="news-image" alt="Shanghai Weather">
+        <p>Shanghai is bracing for heavy rainfall due to a tropical system moving in from the coast. Emergency services are on alert, and citizens are advised to stay indoors during peak storm hours this weekend.</p>
+      </div>
+
+      <!-- Education -->
+      <div class="col-md-6 mb-4">
+        <h2>Education</h2>
+        <img src="assets/images/education-shangai.jpg" class="news-image" alt="Shanghai Education">
+        <p>Shanghai universities are launching international partnerships, and coding is being introduced at the primary level. The government continues its efforts to modernize classrooms with AI-driven tools and smart learning environments.</p>
+      </div>
+
+      <!-- Current Affairs -->
+      <div class="col-md-6 mb-4">
+        <h2>Current Affairs</h2>
+        <img src="assets/images/current-affairs-shangai.jpg" class="news-image" alt="Shanghai Current Affairs">
+        <p>Debates over urban development and carbon neutrality dominate city council discussions. Infrastructure projects, including a new metro line, are underway to meet the needs of Shanghai’s growing population.</p>
+      </div>
+
+      <!-- Entertainment -->
+      <div class="col-md-6 mb-4">
+        <h2>Entertainment</h2>
+        <img src="assets/images/entertainment-shangai.jpg" class="news-image" alt="Shanghai Entertainment">
+        <p>The Shanghai Film Festival is bringing global cinema to the city with critically acclaimed premieres. Street performances and traditional theater are also seeing a revival in tourist-favored districts like The Bund and Xintiandi.</p>
+      </div>
+
+      <!-- Health -->
+      <div class="col-md-6 mb-4">
+        <h2>Health</h2>
+        <img src="assets/images/health-shangai.jpeg" class="news-image" alt="Shanghai Health">
+        <p>Public health campaigns in Shanghai are focusing on mental well-being and elderly care. Mobile health clinics have been deployed in suburban areas to provide basic healthcare access to under-served communities.</p>
+      </div>
+
+      <!-- Technology -->
+      <div class="col-md-6 mb-4">
+        <h2>Technology</h2>
+        <img src="assets/images/technologu-shangai.jpg" class="news-image" alt="Shanghai Technology">
+        <p>Tech giants are showcasing their latest innovations at the Shanghai Tech Expo, from quantum computing to autonomous transport. The city is investing heavily in 5G infrastructure and AI research institutions.</p>
+      </div>
+
+      <!-- Lifestyle -->
+      <div class="col-md-6 mb-4">
+        <h2>Lifestyle</h2>
+        <img src="assets/images/shanga-lifestyle.jpg" class="news-image" alt="Shanghai Lifestyle">
+        <p>Shanghai’s cosmopolitan lifestyle is evident in its fashion-forward streets, wellness spas, and boutique cafes. A surge in urban gardening and cycling culture reflects the city's shift toward a greener, more mindful way of living.</p>
+      </div>
+    </div>
+  </div>
+
+
+
     <script src="assets/JS/navbar.js"></script>
 </body>
 <!-- bootstrap js -->
