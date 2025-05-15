@@ -1,0 +1,9 @@
+.breaking-news {
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 2px solid #ff3333;
+  letter-spacing: 0.5px;
+}
+.body{
+    background-color: rgba(70, 67, 67, 0.623);
+}
