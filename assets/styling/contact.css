@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .breaking-news {
   font-weight: bold;
   font-size: 1rem;
