@@ -22,11 +22,134 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-   
+   <style>
+    .news-ticker {
+      background: #f32828;
+      color: #000;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .news-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    </style>
 </head>
 <body>
     <header class="header"></header>
     <script src="assets/JS/navbar.js"></script>
+     <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold">World's Breaking News</h1>
+      <p class="lead" style="font-family: sans-serif;">Stay updated with all the latest news from the world: Business, Sports, Food, Weather, Education, Entertainment, Health, Technology & More</p>
+    </div>
+  </header>
+
+  <!-- <div class="container my-5">
+    <div class="row"> -->
+      <!-- Business -->
+      <div class="col-12 mb-4 text-center">
+        <h2><i class="fas fa-globe"></i> Today in World</h2>
+        <p class="m-4">  In a rapidly changing world, staying updated on global affairs is more important than ever. Our 'Today in World' section delivers a comprehensive overview of the most impactful stories from every corner of the globe. Whether it's political shifts, climate change developments, economic trends, international conflicts, scientific breakthroughs, or humanitarian efforts, we aim to provide you with reliable, unbiased news that helps you stay informed and aware. With round-the-clock coverage and expert insights, this section is dedicated to keeping you connected to the stories that shape our world—because what happens across the globe affects us all.
+</p>
+      </div>
+
+      <!-- Scrolling Headline -->
+  <div class="news-ticker">
+    <div class="news-ticker-text">
+      Breaking: Tokyo braces for major storm this weekend | Tokyo FC wins derby match | New AI research launched at Tokyo University | Tokyo Ramen Festival draws huge crowds | Stay tuned to DNBC News for latest updates.
+    </div>
+  </div>
+
+      <div class="container my-5">
+    <div class="row">
+      <!-- Business -->
+      <div class="col-md-6 mb-4">
+        <h2>Business</h2>
+        <img src="assets/images/business-tokyo.jpg" class="news-image" alt="Tokyo Business">
+        <p>Tokyo’s economy is growing steadily with a 12% rise in foreign investment in early 2025. Major companies like Toyota and Sony are expanding in tech and green energy, supported by government initiatives promoting innovation. Tokyo is emerging as a key global hub for fintech and AI startups, boosting consumer confidence and job growth.</p>
+      </div>
+
+      <!-- Sports -->
+      <div class="col-md-6 mb-4">
+        <h2>Sports</h2>
+        <img src="assets/images/sports-tokyo.jpg" class="news-image" alt="Tokyo Sports">
+        <p>Tokyo FC secured a dramatic 2-1 win over Yokohama, strengthening their bid for the J-League title. The Tokyo Marathon attracted over 30,000 runners, highlighting the city’s sports enthusiasm. Preparations for international events and youth sports programs are intensifying, promoting fitness and athletic excellence.</p>
+      </div>
+
+      <!-- Food -->
+      <div class="col-md-6 mb-4">
+        <h2>Food</h2>
+        <img src="assets/images/food-tokyo.jpg" class="news-image" alt="Tokyo Food">
+        <p>Tokyo’s culinary scene is thriving with new Michelin-starred restaurants and innovative fusion dishes. The popular Ramen Festival attracts huge crowds, while sustainable and locally sourced dining options are becoming increasingly popular among residents and visitors alike.</p>
+      </div>
+
+      <!-- Weather -->
+      <div class="col-md-6 mb-4">
+        <h2>Weather</h2>
+        <img src="assets/images/weather-tokyo.jpg" class="news-image" alt="Tokyo Weather">
+        <p>Tokyo is preparing for heavy rains this weekend due to a tropical storm in the Pacific. Authorities have issued flood warnings and safety advisories, with conditions expected to improve by mid-next week bringing sunnier skies and lower humidity.</p>
+      </div>
+
+      <!-- Education -->
+      <div class="col-md-6 mb-4">
+        <h2>Education</h2>
+        <img src="assets/images/education-tokyo.jpg" class="news-image" alt="Tokyo Education">
+        <p>The University of Tokyo launched a cutting-edge AI research program, while citywide schools are adopting digital classrooms with tablets to foster inclusive learning. Education reforms aim to encourage critical thinking, with teachers receiving new training and parents expressing optimism.</p>
+      </div>
+
+      <!-- Current Affairs -->
+      <div class="col-md-6 mb-4">
+        <h2>Current Affairs</h2>
+        <img src="assets/images/current-affairs-tokyo.jpg" class="news-image" alt="Tokyo Politics">
+        <p>Tokyo has implemented new subway safety regulations with increased surveillance and emergency staff. Meanwhile, city council debates intensify over climate legislation, including proposed bans on certain vehicles by 2030, drawing mixed public opinions.</p>
+      </div>
+
+      <!-- Entertainment -->
+      <div class="col-md-6 mb-4">
+        <h2>Entertainment</h2>
+        <img src="assets/images/entertainment-tokyo.jpg" class="news-image" alt="Tokyo Entertainment">
+        <p>Tokyo’s entertainment scene is buzzing with a new hit anime topping global charts, the Tokyo Film Festival showcasing acclaimed films, and the return of live concerts at full capacity. The Shibuya district is experiencing a cultural revival with art installations and performances gaining momentum.</p>
+      </div>
+
+      <!-- Health -->
+      <div class="col-md-6 mb-4">
+        <h2>Health</h2>
+        <img src="assets/images/health-tokyo.jpg" class="news-image" alt="Tokyo Health">
+        <p>Tokyo hospitals report a steady decline in COVID-19 cases as vaccination rates surpass 90%. Focus is shifting to mental wellness programs and community fitness initiatives for older adults, including free yoga and walking clubs.</p>
+      </div>
+
+      <!-- Technology -->
+      <div class="col-md-6 mb-4">
+        <h2>Technology</h2>
+        <img src="assets/images/technology-tokyo.jpg" class="news-image" alt="Tokyo Technology">
+        <p>Tokyo is emerging as a global leader in robotics and automation, with new tech expos highlighting humanoid assistants and AI-driven smart homes. Startups thrive with international investment, and schools are introducing coding classes early on.
+
+</p>
+      </div>
+
+      <!-- Lifestyle -->
+      <div class="col-md-6 mb-4">
+        <h2>Lifestyle</h2>
+        <img src="assets/images/lifestyle-tokyo.jpg" class="news-image" alt="Tokyo Lifestyle">
+        <p>Minimalism and Zen-inspired living are trending among Tokyo’s youth, boosting demand for multifunctional furniture and mental wellness apps. Harajuku remains a global fashion hotspot blending tradition with bold futuristic styles.
+
+</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
