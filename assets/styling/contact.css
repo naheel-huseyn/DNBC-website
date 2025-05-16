@@ -4,6 +4,6 @@
   border-bottom: 2px solid #ff3333;
   letter-spacing: 0.5px;
 }
-.body{
-    background-color: rgba(70, 67, 67, 0.623);
+#button{
+  width: 100%;
 }
