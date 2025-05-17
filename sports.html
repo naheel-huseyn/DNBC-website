@@ -22,10 +22,95 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-   
+   <style>
+    .news-ticker {
+      background: #f32828;
+      color: white;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .news-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    p{
+      font-size: large;
+    }
+    .card-news {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-news:hover {
+  transform: translateY(-5px);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body{
+  overflow-x: hidden;
+  
+}
+  </style>
 </head>
 <body>
+  <!-- navbar  -->
     <header class="header"></header>
+     <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold">World's Sports News</h1>
+      <p class="lead" style="font-family: sans-serif;">Stay updated with all the latest news from the world: Business, Sports, Food, Weather, Education, Entertainment, Health, Technology & More</p>
+    </div>
+  </header>
+  
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      <h2 class="mb-3"><i class="bi bi-trophy-fill text-dark me-2"></i> Today in World</h2>
+      <p class="fs-5">
+        In a rapidly changing world, staying updated on sports is more important than ever...
+      </p>
+    </div>
+  </div>
+</div>
+     <!-- Scrolling Headline -->
+  <div class="news-ticker">
+    <div class="news-ticker-text fs-3">
+      Breaking: Israel-Palestine conflict | Iran, European powers to hold nuclear talks in Turkiye | Supreme Court blocks Trump | US loses last perfect credit rating amid rising debt | Stay tuned to DNBC News for latest updates.
+    </div>
+  </div>
+   <div class="container my-5">
+    <div class="row">
+      <!-- news 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card-news">
+        <h2>Golf</h2>
+        <img src="assets/images/sports news no 1.jpg" class="news-image" alt="img">
+        <h2>Double down! Vegas leads PGA Championship, Scheffler three back</h2>
+        
+                <p>CHARLOTTE, North Carolina, May 16 (Reuters) - Venezuela's Jhonattan Vegas led after the second round of the PGA Championship on Friday at Quail Hollow Club, where Scottie Scheffler added star power to the leaderboard and Max Homa fired the low round of the day to roar into contention.</p>
+        </div>
+      </div>
+
+      </div>
+   </div>
+
+<!-- navbar.js -->
     <script src="assets/JS/navbar.js"></script>
 </body>
 <!-- bootstrap js -->

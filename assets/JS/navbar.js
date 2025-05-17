@@ -17,13 +17,13 @@ document.querySelector("header").innerHTML += `
                 <a class="nav-link px-2 text-white fw-semibold" href="about.html">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-2 text-white fw-semibold" href="todayinworld.html">TODAY IN WORLD</a>
+                <a class="nav-link px-2 text-white fw-semibold" href="todayInWorld.html">TODAY IN WORLD</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link px-2 text-white fw-semibold" href="business.html">BUSINESS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-2 text-white fw-semibold" href="sport.html">SPORTS</a>
+                <a class="nav-link px-2 text-white fw-semibold" href="sports.html">SPORTS</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle px-2 text-white fw-semibold " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
