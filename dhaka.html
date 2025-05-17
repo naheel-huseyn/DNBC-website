@@ -22,11 +22,160 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-   
+   <style>
+    .news-ticker {
+      background: #f32828;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .news-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    .card-news {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-news:hover {
+  transform: translateY(-5px);
+}
+  </style>
 </head>
 <body>
+     <header class="header"></header>
+
+     <header class="text-dark text-center py-4 border border-bottom border-dark">
+    <div class="container">
+      <h1 class="display-4 fw-semibold">Dhaka News Headlines</h1>
+      <p class="lead" style="font-family: sans-serif;">Business, Sports, Food, Weather, Education, Health, Technology & more from the heart of Bangladesh</p>
+    </div>
+  </header>
+
+  <!-- Business -->
+      <div class="col-12 mb-4 text-center">
+        <h2>Business</h2>
+        <p>Dhaka’s business environment in 2025 is shaped by critical economic reforms, international financial support, and ongoing infrastructure development amid political changes. The IMF has approved a $1.3 billion loan to support reforms like exchange rate adjustments and tax system restructuring, although Bangladesh faces a projected GDP slowdown to 3.3% due to investment declines and political uncertainty. Key infrastructure projects like the Dhaka Elevated Expressway and Metro Rail are progressing, despite some delays from protests. The garment sector is adapting to global trade challenges by increasing U.S. cotton imports to offset tariffs. Politically, significant shifts are underway with the banning of major parties, adding complexity to the economic outlook. Overall, Dhaka is balancing reform efforts and development while navigating a dynamic and sometimes uncertain political and economic landscape.</p>
+      </div>
+
+  <!-- Scrolling Headline -->
+  <div class="news-ticker">
+    <div class="news-ticker-text">
+      Breaking: Garment exports hit new record | Dhaka Premier League heats up | Flood warnings issued in northern districts | Stay informed with DNBC News Dhaka
+    </div>
+    </div>
     
-    <header class="header"></header>
+      <div class="container my-5">
+    <div class="row">
+     <!-- Business -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Business</h2>
+        <img src="assets/images/business-dhaka.png" class="news-image" alt="Dhaka Business">
+        <p>Dhaka's garment sector continues to thrive, contributing significantly to the national GDP. Government policies are promoting digital banking and local entrepreneurship, aiming to make Dhaka a startup-friendly city.</p>
+      </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Sports</h2>
+        <img src="assets/images/sports-dhaka.png" class="news-image" alt="Dhaka Sports">
+        <p>Cricket fever is on the rise as Dhaka Premier League matches draw record crowds. Youth participation in football and kabaddi is also growing, with new training academies emerging across the city.</p>
+      </div>
+      </div>
+
+      <!-- Food -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Food</h2>
+        <img src="assets/images/food-dhaka.png" class="news-image" alt="Dhaka Food">
+        <p>Dhaka’s food scene is a rich tapestry of street flavors and upscale dining. From biryani to pitha, culinary festivals and night markets are celebrating the city’s heritage and fusion influences.</p>
+      </div>
+      </div>
+
+      <!-- Weather -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Weather</h2>
+        <img src="assets/images/weather-dhaka.png" class="news-image" alt="Dhaka Weather">
+        <p>Heavy monsoon showers are expected this week. Meteorologists warn of urban flooding in low-lying areas. Citizens are urged to monitor weather updates and take necessary precautions.</p>
+      </div>
+      </div>
+
+      <!-- Education -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Education</h2>
+        <img src="assets/images/education-dhaka.jpg" class="news-image" alt="Dhaka Education">
+        <p>Educational reforms in Dhaka focus on digital classrooms and equitable access. Scholarships and exchange programs are expanding as universities build stronger international ties.</p>
+      </div>
+      </div>
+
+      <!-- Current Affairs -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Current Affairs</h2>
+        <img src="assets/images/current-affairs-dhaka.jpg" class="news-image" alt="Dhaka Current Affairs">
+        <p>City corporation elections and discussions on urban planning dominate headlines. Officials aim to balance infrastructure growth with environmental sustainability.</p>
+      </div>
+      </div>
+
+      <!-- Entertainment -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Entertainment</h2>
+        <img src="assets/images/entertainment-dhaka.jpg" class="news-image" alt="Dhaka Entertainment">
+        <p>Dhallywood stars are lighting up the silver screen while Dhaka’s art galleries and music concerts attract youthful crowds. Cultural festivals are highlighting traditional Bangladeshi arts.</p>
+      </div>
+      </div>
+
+      <!-- Health -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Health</h2>
+        <img src="assets/images/health-dhaka.jpg" class="news-image" alt="Dhaka Health">
+        <p>Efforts are underway to improve maternal health services. Health tech startups are introducing telemedicine platforms to address Dhaka’s growing demand for accessible healthcare.</p>
+      </div>
+      </div>
+
+      <!-- Technology -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Technology</h2>
+        <img src="assets/images/technology-dhaka.jpg" class="news-image" alt="Dhaka Technology">
+        <p>Dhaka’s IT sector is expanding rapidly, with focus on e-governance and app development. Tech parks and coding bootcamps are training a new generation of Bangladeshi innovators.</p>
+      </div>
+      </div>
+
+      <!-- Lifestyle -->
+      <div class="col-md-6 mb-4">
+         <div class="card-news">
+        <h2>Lifestyle</h2>
+        <img src="assets/images/lifestyle-dhaka.jpg" class="news-image" alt="Dhaka Lifestyle">
+        <p>City dwellers are embracing minimalist living and wellness trends. Yoga studios, cycling clubs, and eco-friendly fashion brands are gaining popularity among Dhaka’s urban youth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     <script src="assets/JS/navbar.js"></script>
 </body>
 <!-- bootstrap js -->
