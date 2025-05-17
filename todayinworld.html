@@ -21,11 +21,14 @@
  <!-- Owl Carousel CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<!-- navbar -->
 <link rel="stylesheet" href="assets/styling/navbar.css">
+<!-- footer css -->
+ <link rel="stylesheet" href="assets/styling/footer.css">
    <style>
     .news-ticker {
       background: #f32828;
-      color: #000;
+      color: white;
       padding: 10px;
       overflow: hidden;
       white-space: nowrap;
@@ -44,6 +47,25 @@
       margin-bottom: 15px;
       border-radius: 10px;
     }
+    p{
+      font-size: large;
+    }
+    .card-news {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-news:hover {
+  transform: translateY(-5px);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
     </style>
 </head>
 <body>
@@ -56,101 +78,165 @@
     </div>
   </header>
 
-  <!-- <div class="container my-5">
-    <div class="row"> -->
-      <!-- Business -->
-      <div class="col-12 mb-4 text-center">
-        <h2><i class="fas fa-globe"></i> Today in World</h2>
-        <p class="m-4">  In a rapidly changing world, staying updated on global affairs is more important than ever. Our 'Today in World' section delivers a comprehensive overview of the most impactful stories from every corner of the globe. Whether it's political shifts, climate change developments, economic trends, international conflicts, scientific breakthroughs, or humanitarian efforts, we aim to provide you with reliable, unbiased news that helps you stay informed and aware. With round-the-clock coverage and expert insights, this section is dedicated to keeping you connected to the stories that shape our world—because what happens across the globe affects us all.
-</p>
-      </div>
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      <h2 class="mb-3"><i class="fas fa-globe"></i> Today in World</h2>
+      <p class="fs-5">
+        In a rapidly changing world, staying updated on global affairs is more important than ever...
+      </p>
+    </div>
+  </div>
+</div>
+
 
       <!-- Scrolling Headline -->
   <div class="news-ticker">
-    <div class="news-ticker-text">
-      Breaking: Tokyo braces for major storm this weekend | Tokyo FC wins derby match | New AI research launched at Tokyo University | Tokyo Ramen Festival draws huge crowds | Stay tuned to DNBC News for latest updates.
+    <div class="news-ticker-text fs-3">
+      Breaking: Israel-Palestine conflict | Iran, European powers to hold nuclear talks in Turkiye | Supreme Court blocks Trump | US loses last perfect credit rating amid rising debt | Stay tuned to DNBC News for latest updates.
     </div>
   </div>
 
       <div class="container my-5">
     <div class="row">
-      <!-- Business -->
+      <!-- news 1 -->
       <div class="col-md-6 mb-4">
-        <h2>Business</h2>
-        <img src="assets/images/business-tokyo.jpg" class="news-image" alt="Tokyo Business">
-        <p>Tokyo’s economy is growing steadily with a 12% rise in foreign investment in early 2025. Major companies like Toyota and Sony are expanding in tech and green energy, supported by government initiatives promoting innovation. Tokyo is emerging as a key global hub for fintech and AI startups, boosting consumer confidence and job growth.</p>
+        <div class="card-news">
+        <h2>Israel-Palestine conflict</h2>
+        <img src="assets/images/world news no 1 .jpg" class="news-image" alt="img">
+        <h2>What’s next for Palestinians in Gaza?</h2>
+        <p>Israel launches strikes on two Yemen ports</p>
+        <p>Prime Minister Benjamin Netanyahu promises more strikes if the group continues to launch attacks on Israel.</p>
+        </div>
       </div>
 
-      <!-- Sports -->
+      <!-- news 2-->
       <div class="col-md-6 mb-4">
-        <h2>Sports</h2>
-        <img src="assets/images/sports-tokyo.jpg" class="news-image" alt="Tokyo Sports">
-        <p>Tokyo FC secured a dramatic 2-1 win over Yokohama, strengthening their bid for the J-League title. The Tokyo Marathon attracted over 30,000 runners, highlighting the city’s sports enthusiasm. Preparations for international events and youth sports programs are intensifying, promoting fitness and athletic excellence.</p>
+        <div class="card-news">
+
+        <h2>Iran, European powers to hold nuclear talks in Turkiye</h2>
+        <img src="assets/images/world news no 2 .jpg" class="news-image" alt="img">
+        <h2>“The dismantling of enrichment is not accepted by Iran,” he stressed.</h2>
+        <p>TEHRAN (AFP): Iran is set to hold talks with Britain, France and Germany in Turkiye on Friday, after US President Donald Trump said a nuclear deal with Tehran was “getting close”.</p>
+        </div>
       </div>
 
-      <!-- Food -->
+      <!-- news 3 -->
       <div class="col-md-6 mb-4">
-        <h2>Food</h2>
-        <img src="assets/images/food-tokyo.jpg" class="news-image" alt="Tokyo Food">
-        <p>Tokyo’s culinary scene is thriving with new Michelin-starred restaurants and innovative fusion dishes. The popular Ramen Festival attracts huge crowds, while sustainable and locally sourced dining options are becoming increasingly popular among residents and visitors alike.</p>
+        <div class="card-news">
+
+        <h2>Supreme Court blocks Trump from restarting Alien Enemies Act deportations</h2>
+        <img src="assets/images/world news no 3 .jpg" class="news-image" alt="img">
+        <h2>WASHINGTON (CNN)</h2>
+        <p> The Supreme Court on Friday blocked President Donald Trump from moving forward with deportations under the 1798 Alien Enemies Act for a group of immigrants in northern Texas, siding with Venezuelans who feared they were poised for imminent removal under the sweeping wartime authority.</p>
+        </div>
       </div>
 
-      <!-- Weather -->
+      <!-- news 4-->
       <div class="col-md-6 mb-4">
-        <h2>Weather</h2>
-        <img src="assets/images/weather-tokyo.jpg" class="news-image" alt="Tokyo Weather">
-        <p>Tokyo is preparing for heavy rains this weekend due to a tropical storm in the Pacific. Authorities have issued flood warnings and safety advisories, with conditions expected to improve by mid-next week bringing sunnier skies and lower humidity.</p>
+        <div class="card-news">
+
+        <h2>US loses last perfect credit rating amid rising debt</h2>
+        <img src="assets/images/world news no 4 .jpg" class="news-image" alt="Tokyo Weather">
+        <h2>Moody's warned in 2023 that the US' triple-A rating was at risk</h2>
+        <p>The US has lost its last perfect credit rating, as influential ratings firm Moody's expressed concern over the government's ability to pay back its debt.</p>
+        </div>
       </div>
 
-      <!-- Education -->
+      <!-- news 5-->
       <div class="col-md-6 mb-4">
-        <h2>Education</h2>
-        <img src="assets/images/education-tokyo.jpg" class="news-image" alt="Tokyo Education">
-        <p>The University of Tokyo launched a cutting-edge AI research program, while citywide schools are adopting digital classrooms with tablets to foster inclusive learning. Education reforms aim to encourage critical thinking, with teachers receiving new training and parents expressing optimism.</p>
+        <div class="card-news">
+
+        <h2>The poison paradox: How Australia's deadliest animals save lives</h2>
+        <img src="assets/images/world news no 5 .jpg" class="news-image" alt="img">
+        <h2>spider girl</h2>
+        <p>Australia is famously full of such deadly animals - and this room at the Australian Reptile Park plays a critical part in a government antivenom programme, which saves lives on a continent where it's often joked that everything wants to kill you.</p>
+        </div>
       </div>
 
-      <!-- Current Affairs -->
+      <!-- news 6 -->
       <div class="col-md-6 mb-4">
-        <h2>Current Affairs</h2>
-        <img src="assets/images/current-affairs-tokyo.jpg" class="news-image" alt="Tokyo Politics">
-        <p>Tokyo has implemented new subway safety regulations with increased surveillance and emergency staff. Meanwhile, city council debates intensify over climate legislation, including proposed bans on certain vehicles by 2030, drawing mixed public opinions.</p>
+        <div class="card-news">
+
+        <h2>American basketball player arrested in Indonesia for alleged drug smuggling, could face death penalty</h2>
+        <img src="assets/images/world news no 6 .jpg" class="news-image" alt="img">
+        <h2>American basketball player</h2>
+        <p>Jakarta, Indonesian An American basketball player for the Indonesian league was arrested for allegedly attempting to smuggle illegal drugs to the country, police said Thursday.
+
+The Southeast Asian country has extremely strict drug laws, and convicted smugglers are sometimes executed by firing squad.</p>
+</div>
       </div>
 
-      <!-- Entertainment -->
+      <!-- news 7 -->
       <div class="col-md-6 mb-4">
-        <h2>Entertainment</h2>
-        <img src="assets/images/entertainment-tokyo.jpg" class="news-image" alt="Tokyo Entertainment">
-        <p>Tokyo’s entertainment scene is buzzing with a new hit anime topping global charts, the Tokyo Film Festival showcasing acclaimed films, and the return of live concerts at full capacity. The Shibuya district is experiencing a cultural revival with art installations and performances gaining momentum.</p>
+        <div class="card-news">
+
+        <h2>UK says Pakistan-India ceasefire must hold</h2>
+        <img src="assets/images/world news no 7 .jpg" class="news-image" alt="img">
+        <h2>We have deep relations with both sides, says British foreign secretary</h2>
+        <p>LONDON: British Foreign Secretary David Lammy has said that the ceasefire between India and Pakistan is hugely welcome but it remains fragile, and his government is working with international partners to sustain the ceasefire agreement.
+
+Lammy is currently in Pakistan to meet the Pakistani leadership to hold talks on various issues, including the recent fight between India and Pakistan.</p>
       </div>
 
-      <!-- Health -->
+    </div>
+     <!-- news 8 -->
       <div class="col-md-6 mb-4">
-        <h2>Health</h2>
-        <img src="assets/images/health-tokyo.jpg" class="news-image" alt="Tokyo Health">
-        <p>Tokyo hospitals report a steady decline in COVID-19 cases as vaccination rates surpass 90%. Focus is shifting to mental wellness programs and community fitness initiatives for older adults, including free yoga and walking clubs.</p>
-      </div>
+        <div class="card-news">
 
-      <!-- Technology -->
-      <div class="col-md-6 mb-4">
-        <h2>Technology</h2>
-        <img src="assets/images/technology-tokyo.jpg" class="news-image" alt="Tokyo Technology">
-        <p>Tokyo is emerging as a global leader in robotics and automation, with new tech expos highlighting humanoid assistants and AI-driven smart homes. Startups thrive with international investment, and schools are introducing coding classes early on.
-
-</p>
-      </div>
-
-      <!-- Lifestyle -->
-      <div class="col-md-6 mb-4">
-        <h2>Lifestyle</h2>
-        <img src="assets/images/lifestyle-tokyo.jpg" class="news-image" alt="Tokyo Lifestyle">
-        <p>Minimalism and Zen-inspired living are trending among Tokyo’s youth, boosting demand for multifunctional furniture and mental wellness apps. Harajuku remains a global fashion hotspot blending tradition with bold futuristic styles.
-
-</p>
+        <h2>China says ready to 'expand practical cooperation' with Russian army</h2>
+        <img src="assets/images/world news no 8 .jpg" class="news-image" alt="img">
+        <h2>Beijing says it is a neutral party to the conflict and has made indefatigable efforts for peace</h2>
+        <p>China said Thursday it was ready to "expand practical cooperation" with the Russian army, after President Xi Jinping's recent visit to Moscow for a lavish World War II Victory Day parade.
+The two countries have drawn closer in recent years, including since Moscow launched a full-scale invasion of Ukraine in 2022.</p>
       </div>
     </div>
   </div>
+ <footer>
+   <div class="footer row p-5">
+    <div class="col-md-4">
+<img src="assets/images/logo.png" alt="logo">
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-white">QUICK ACCESS</h1>
 
-</body>
+<ul>
+  <li class="footer-sec">
+    <a href="index.html"><i>HOME</i></a>
+  </li>
+  <li>
+    <a href="about.html"><i>ABOUT US</i></a>
+  </li>
+  <li>
+    <a href="business.html"><i>BUSSINESS</i></a>
+  </li>
+  <li>
+    <a href="contact.html"><i>CONTACT US</i></a>
+  </li>
+  <li>
+    <a href="sports.html"><i>SPORTS</i></a>
+  </li>
+</ul>
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-white">FOLLOW US ON</h1>
+<ul><li>
+<a href="https://www.facebook.com/APTECH.Pakistan/" target="_blank"><i class="fab fa-facebook-f fa-1x">FACEBOOK</i></a>
+</li></ul>
+<ul><li>
+<a href="https://www.instagram.com/aptechlearning_official/" target="_blank"><i class="fab fa-instagram fa-1x">INSTAGRAM</i></a>
+</li></ul>
+<ul><li>
+<a href="https://www.linkedin.com/company/aptech" target="_blank"><i class="fab fa-linkedin fa-1x">LINKEDIN</i></a>
+</li></ul>
+    </div>
+     <div class="text-center text-white fs-4 p-2">
+    © [2025] [DNBC]. All rights reserved.
+All content on this site is the property of [DNBC] and may not be copied, reproduced, or used without permission.
+  </div>
+  </div>
+</footer>
+
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
