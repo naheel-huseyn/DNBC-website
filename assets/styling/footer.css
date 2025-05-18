@@ -1,19 +1,21 @@
+.social-icon {
+    transition: color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #e61818d2; /* Bright red */
+  }
 .footer{
     background-color: black;
+    width: 100%; !important
+  
 }
   a {
     text-decoration: none;
     color: white; 
     font-size: medium;
-  
   }
   a:hover{ 
     color: red;
-  }
-  ul, li {
-    list-style: none;
-    padding: 3px;
-    margin: 0;
-    margin-left: 30px;
-  }
+  } 
   
