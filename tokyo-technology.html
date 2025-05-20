@@ -44,50 +44,38 @@
 
      <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
     <div class="container">
-      <h1 class="display-4 fw-semibold">Sports</h1>
+      <h1 class="display-4 fw-semibold">Technology</h1>
     </div>
   </header>
   <div class="container pt-3">
     <div class="row">
         <!-- Left Column -->
   <div class="col-md-6">
-    <h2>Tokyo Embraces Sports Momentum with Tokyo FC Victory and Marathon Success</h2>
-    <p>Tokyo is riding a wave of athletic enthusiasm as sports continue to energize the city’s cultural and community landscape. This week, Tokyo FC delivered a thrilling 2-1 victory over Yokohama, bolstering their campaign for the J-League title and igniting passion among local football fans. At the same time, the city’s iconic Tokyo Marathon drew over 30,000 participants, reaffirming Tokyo's status as a global capital of sport and fitness.</p>
-    <h3>Tokyo FC’s Title Hopes Strengthened</h3>
-    <p>In front of a packed stadium, Tokyo FC secured a dramatic 2-1 win against rivals Yokohama, a result that strengthens their position in the J-League standings. With strategic play and a late winning goal, the match underscored Tokyo FC’s growing confidence and unity as they pursue championship glory. The win not only boosts morale for the team and its supporters but also reflects the rising quality and competitiveness of Japanese football on the national stage.</p>
-<h3>Tokyo Marathon: A Celebration of Endurance</h3>
-<p>Just days before the match, the streets of Tokyo came alive with the annual Tokyo Marathon, one of the city’s most beloved sporting events. More than 30,000 runners from around the world took part, showcasing the city’s commitment to health, endurance, and community spirit. From elite athletes to amateur joggers, the event celebrated perseverance and highlighted Tokyo’s appeal as a host city for major international sporting events.</p>
-<h3>Investment in Future Sports Excellence</h3>
-<p>Beyond the headline events, Tokyo is deepening its investment in sports infrastructure and youth development. With preparations underway for upcoming international competitions, the city is upgrading facilities and intensifying training programs. Local governments and private organizations are also expanding youth sports initiatives, encouraging participation from an early age and nurturing the next generation of athletes.These efforts align with Tokyo’s broader vision to promote active lifestyles and foster athletic excellence. Schools, clubs, and community centers are increasingly collaborating to make sports accessible and inclusive, reflecting a cultural shift toward long-term health and performance.</p>
-<h3>A City United by Sport</h3>
-<p>From the electric atmosphere at football matches to the inspiring scenes of marathon runners traversing the city, Tokyo is embracing the unifying power of sport. As local teams chase titles and citizens lace up for races, the city continues to prove that athletic achievement is both a personal and collective endeavor.
-
-With momentum building and future events on the horizon, Tokyo’s vibrant sports scene is playing a vital role in shaping a healthier, more connected, and dynamic urban life.
-
-
-
-
-
-
-
-
-</p>
+    <h2>Tokyo Emerges as Global Powerhouse in Robotics and Automation</h2>
+    <p>Tokyo is rapidly cementing its position as a global leader in robotics and automation, as the city pushes the boundaries of technological innovation across industries and everyday life. With cutting-edge tech expos, a booming startup scene, and forward-thinking education initiatives, Japan’s capital is embracing a future powered by intelligent machines and digital ecosystems.</p>
+    <h3>Tech Expos Showcase Next-Generation Robotics</h3>
+    <p>This year’s robotics expos in Tokyo have drawn global attention, featuring humanoid assistants capable of emotional interaction, precision service robots for hospitals and restaurants, and AI-driven systems integrated into smart homes. These events have become a showcase of Tokyo’s technological vision, where automation enhances daily living—from caregiving to entertainment.The highlight of recent expos included lifelike humanoid robots offering multilingual assistance, as well as fully automated smart home prototypes that adapt to residents' routines and preferences using AI and IoT integration.</p>
+<h3>International Investment Fuels Startup Boom</h3>
+<p>Tokyo’s innovation environment is thriving, with tech startups flourishing thanks to a surge in international investment. Venture capital firms and multinational corporations are betting big on Tokyo’s robotics and AI potential, leading to collaborations that blend Japanese engineering precision with global market ambition.Government incentives, including grants and tax breaks for R&D-focused businesses, have also played a key role in making Tokyo a startup-friendly city. As a result, new ventures are emerging in fields like eldercare robotics, logistics automation, and advanced manufacturing.</p>
+<h3>Education Lays the Foundation for a Digital Future</h3>
+<p>Looking ahead, Tokyo is laying the groundwork for continued leadership in technology through education. Schools across the city are introducing coding and robotics classes as early as elementary level, ensuring that the next generation is equipped with the skills to thrive in an increasingly digital world.By embedding STEM education into the curriculum and supporting teacher training, Tokyo is nurturing a future workforce capable of leading in fields such as AI, software development, and automation design.</p>
+<h3>A City Shaping Tomorrow</h3>
+<p>With innovation pulsing through its research labs, classrooms, and startup offices, Tokyo is redefining what it means to live and work in a high-tech society. Its balanced approach—melding human-centered design, smart infrastructure, and future-focused education—is setting a global standard for the next wave of technological transformation.As robotics and automation become more integrated into everyday life, Tokyo isn’t just keeping pace—it’s leading the way.</p>
   </div>
   <!-- Right Column -->
    <div class="col-md-6">
-    <img src="assets/images/tokyo-sports-article-img1.jpg" class="img" alt="">
-    <img src="assets/images/tokyo-sports-article-img2.jpg"  class="img" alt="">
-    <img src="assets/images/tokyo-sports-article-img3.jpg" class="img" alt="">
+    <img src="assets/images/tokyo-technology-article-img1.jpg" class="img" alt="">
+    <img src="assets/images/tokyo-technology-article-img2.jpg"  class="img" alt="">
+    <img src="assets/images/tokyo-technology-article-img3.jpg" class="img" alt="">
    </div>
    </div>
     </div>
    </div>
-
    <!-- Geolocation -->
     <button style="text-align: center ;" onclick="showTokyoLocation()" class="btn btn-center btn-danger mx-5">Get Tokyo Location</button>
     <p id="locationOutput" class="mx-5"></p>
     <div id="map" style="width: 100%; height: 300px;"></div>
-    
+
     <!-- Button -->
      <div class="text-center my-3">
 <a href="tokyo.html" class="btn btn-danger btn-center text-white">Fade Into Before</a>
@@ -137,6 +125,24 @@ With momentum building and future events on the horizon, Tokyo’s vibrant sport
 </footer>
 
     <script src="assets/JS/navbar.js"></script>
+    <!-- Geolocation Javascript -->
+     <script>
+      function showTokyoLocation () {
+        const latitude = 35.6764;
+        const longitude = 139.6500;
+
+        document.getElementById("locationOutput")
+        .innerHTML = 
+        "Tokyo Location: <br>Latitude: " + latitude + "<br>Longitude: " + longitude;
+        
+        // Map URL
+        const mapURL = 
+        `https://www.google.com/maps/embed?q=${latitude},${longitude}&hl=es;z=14&output=embed`;
+        document.getElementById("map").innerHTML = 
+        `<iframe width="100%" height="100%" style="border:0; loading="lazy" src="${mapURL}"
+        allowfullscreen></iframe>`;
+      }
+     </script>
 
     </body>
 <!-- bootstrap js -->

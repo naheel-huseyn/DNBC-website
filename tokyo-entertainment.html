@@ -44,40 +44,29 @@
 
      <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
     <div class="container">
-      <h1 class="display-4 fw-semibold">Sports</h1>
+      <h1 class="display-4 fw-semibold">Entertainment</h1>
     </div>
   </header>
   <div class="container pt-3">
     <div class="row">
         <!-- Left Column -->
   <div class="col-md-6">
-    <h2>Tokyo Embraces Sports Momentum with Tokyo FC Victory and Marathon Success</h2>
-    <p>Tokyo is riding a wave of athletic enthusiasm as sports continue to energize the city’s cultural and community landscape. This week, Tokyo FC delivered a thrilling 2-1 victory over Yokohama, bolstering their campaign for the J-League title and igniting passion among local football fans. At the same time, the city’s iconic Tokyo Marathon drew over 30,000 participants, reaffirming Tokyo's status as a global capital of sport and fitness.</p>
-    <h3>Tokyo FC’s Title Hopes Strengthened</h3>
-    <p>In front of a packed stadium, Tokyo FC secured a dramatic 2-1 win against rivals Yokohama, a result that strengthens their position in the J-League standings. With strategic play and a late winning goal, the match underscored Tokyo FC’s growing confidence and unity as they pursue championship glory. The win not only boosts morale for the team and its supporters but also reflects the rising quality and competitiveness of Japanese football on the national stage.</p>
-<h3>Tokyo Marathon: A Celebration of Endurance</h3>
-<p>Just days before the match, the streets of Tokyo came alive with the annual Tokyo Marathon, one of the city’s most beloved sporting events. More than 30,000 runners from around the world took part, showcasing the city’s commitment to health, endurance, and community spirit. From elite athletes to amateur joggers, the event celebrated perseverance and highlighted Tokyo’s appeal as a host city for major international sporting events.</p>
-<h3>Investment in Future Sports Excellence</h3>
-<p>Beyond the headline events, Tokyo is deepening its investment in sports infrastructure and youth development. With preparations underway for upcoming international competitions, the city is upgrading facilities and intensifying training programs. Local governments and private organizations are also expanding youth sports initiatives, encouraging participation from an early age and nurturing the next generation of athletes.These efforts align with Tokyo’s broader vision to promote active lifestyles and foster athletic excellence. Schools, clubs, and community centers are increasingly collaborating to make sports accessible and inclusive, reflecting a cultural shift toward long-term health and performance.</p>
-<h3>A City United by Sport</h3>
-<p>From the electric atmosphere at football matches to the inspiring scenes of marathon runners traversing the city, Tokyo is embracing the unifying power of sport. As local teams chase titles and citizens lace up for races, the city continues to prove that athletic achievement is both a personal and collective endeavor.
-
-With momentum building and future events on the horizon, Tokyo’s vibrant sports scene is playing a vital role in shaping a healthier, more connected, and dynamic urban life.
-
-
-
-
-
-
-
-
-</p>
+    <h2>Tokyo’s Entertainment Scene Thrives with Anime Success, Film Highlights, and Cultural Revival</h2>
+    <p>Tokyo’s entertainment scene is in full bloom in 2025, as the city reclaims its title as one of the world’s cultural capitals. From a globally acclaimed anime sensation to the vibrant return of live concerts and a revitalized Shibuya district, Tokyo is embracing creativity, community, and cultural expression with renewed energy.</p>
+    <h3>Global Anime Phenomenon Captivates Audiences</h3>
+    <p>A new Tokyo-produced anime has taken the world by storm, topping global streaming charts and captivating fans with its compelling storytelling, stunning visuals, and emotional depth. Produced by a top animation studio based in the capital, the series is being praised for pushing artistic boundaries and reinforcing Japan’s influential role in global pop culture.Merchandise, themed pop-up cafés, and fan events are driving an anime boom across the city, drawing tourists and locals alike to Tokyo’s vibrant otaku hubs in Akihabara and Ikebukuro. </p>
+<h3>Tokyo Film Festival Shines Spotlight on Cinematic Excellence</h3>
+<p>The prestigious Tokyo International Film Festival has also returned in full force, showcasing a wide array of acclaimed films from Japan and around the globe. This year’s lineup includes socially resonant dramas, bold experimental films, and visually arresting documentaries, reflecting the diversity and depth of modern cinema.Renowned directors, rising stars, and industry leaders gathered for screenings, discussions, and panels, reinforcing Tokyo’s status as a key destination for film artistry and innovation.</p>
+<h3>Live Concerts Return to Full Capacity</h3>
+<p>After years of restrictions, Tokyo’s live music scene is back at full volume. Concert halls and arenas across the city are once again packed with cheering fans as top Japanese and international artists return to the stage. From pop icons and J-rock bands to orchestras and underground DJs, the energy in Tokyo’s music venues is electric.Music festivals and outdoor performances are also making a comeback, breathing life into neighborhoods and offering opportunities for young artists to connect with growing audiences.</p>
+<h3>A City Reconnected Through Culture</h3>
+<p>As Tokyo’s entertainment sectors surge with activity, they are doing more than just entertaining — they’re reconnecting people, fueling the economy, and restoring a sense of community. From anime studios and concert stages to film theaters and street corners in Shibuya, Tokyo’s creative heartbeat is louder and stronger than ever.In 2025, Tokyo isn’t just watching culture unfold — it’s leading the show.</p>
   </div>
   <!-- Right Column -->
    <div class="col-md-6">
-    <img src="assets/images/tokyo-sports-article-img1.jpg" class="img" alt="">
-    <img src="assets/images/tokyo-sports-article-img2.jpg"  class="img" alt="">
-    <img src="assets/images/tokyo-sports-article-img3.jpg" class="img" alt="">
+    <img src="assets/images/tokyo-entertainment-article-img1.jpg" class="img" alt="">
+    <img src="assets/images/tokyo-entertainment-article-img2.jpg"  class="img" alt="">
+    <img src="assets/images/tokyo-entertainment-article-img3.jpg" class="img" alt="">
    </div>
    </div>
     </div>
@@ -87,7 +76,7 @@ With momentum building and future events on the horizon, Tokyo’s vibrant sport
     <button style="text-align: center ;" onclick="showTokyoLocation()" class="btn btn-center btn-danger mx-5">Get Tokyo Location</button>
     <p id="locationOutput" class="mx-5"></p>
     <div id="map" style="width: 100%; height: 300px;"></div>
-    
+
     <!-- Button -->
      <div class="text-center my-3">
 <a href="tokyo.html" class="btn btn-danger btn-center text-white">Fade Into Before</a>
@@ -137,6 +126,24 @@ With momentum building and future events on the horizon, Tokyo’s vibrant sport
 </footer>
 
     <script src="assets/JS/navbar.js"></script>
+    <!-- Geolocation Javascript -->
+     <script>
+      function showTokyoLocation () {
+        const latitude = 35.6764;
+        const longitude = 139.6500;
+
+        document.getElementById("locationOutput")
+        .innerHTML = 
+        "Tokyo Location: <br>Latitude: " + latitude + "<br>Longitude: " + longitude;
+        
+        // Map URL
+        const mapURL = 
+        `https://www.google.com/maps/embed?q=${latitude},${longitude}&hl=es;z=14&output=embed`;
+        document.getElementById("map").innerHTML = 
+        `<iframe width="100%" height="100%" style="border:0; loading="lazy" src="${mapURL}"
+        allowfullscreen></iframe>`;
+      }
+     </script>
 
     </body>
 <!-- bootstrap js -->
