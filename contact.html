@@ -41,6 +41,7 @@
    .news-ticker {
       background: #f32828;
       color: white;
+      font-size: 25px;
       padding: 10px;
       overflow: hidden;
       white-space: nowrap;
@@ -54,92 +55,135 @@
       100% { transform: translateX(-100%); }
     
     }
-    body{
-        overflow-x: hidden;
+   .tagline {
+      font-size: 1.1rem;
+      color: #6c757d;
+      margin-bottom: 1rem;
     }
-.breaking-news {
-  font-weight: bold;
-  font-size: 1rem;
-  border-bottom: 2px solid #ff3333;
-  letter-spacing: 0.5px;
-}
-#button{
-  width: 100%;
-}
-
+    .contact-image {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    /* .btn-dnbc-red {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+    }
+    .btn-dnbc-red:hover {
+      background-color: #b02a37;
+    }
+    .btn-dark-link {
+      background-color: #212529;
+      color: #fff;
+    }
+    .btn-dark-link:hover {
+      background-color: #343a40;
+    } */
+    .form-control:focus {
+      border-color: #dc3545;
+      box-shadow: 0 0 0 0.25rem rgba(220,53,69,0.25);
+    }
+    .icon-label i {
+      color: #dc3545;
+      margin-right: 8px;
+    }
     </style>
 </head>
 <body>
     <!-- navbar -->
     <header class="header"></header>
+
+     <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
+    <div class="container">
+      <h1 class="display-4 fw-semibold">Contact Us</h1>
+      <p class="lead style="font-family: sans-serif">We’d love to hear from you — reach out with your stories, feedback, or just to say hello</p>
+    </div>
+  </header>
+
  <div class="news-ticker">
-    <div class="news-ticker-text fs-3"> We are available for you 24/7 with the latest news. 
+    <div class="news-ticker-text"> We are available for you 24/7 with the latest news. 
      Stay connected — DNBC News keeps you updated with real-time stories!
     </div>
   </div>
-  <!-- Contact Content -->
-<div class="container my-5">
-  <h1 class="text-danger mb-4 text-center fs-1">CONTACT US</h1>
 
-  <!-- Office Info -->
-  <div class="mb-4 fs-3">
-    <h4 class="text-black text-center">DNBC Headquarters</h4>
-    <p class="text-center m-2">
-    123 News Street, London, UK<br />
-    +44 20 1234 5678<br />
-    contact@dnbcnews.com
-    </p>
-  </div>
-  </div>
-  <!-- Map -->
-  <div id="map" class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d57897.80109029488!2d67.1613121!3d24.9111937!3m2!1i1024!2i768!4f13.1!2m1!1saptech%20location!5e0!3m2!1sen!2s!4v1747329232124!5m2!1sen!2s" width="1100" height="450" style="border:0; border-radius: 30%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <section class="container py-5">
+    <div class="row g-5 align-items-center">
+      
+      <!-- Image / Visual -->
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="Say hello" class="contact-image">
+      </div>
+
+      <!-- Text + Form -->
+      <div class="col-lg-6">
+        <h1 class="contact-header">Slide Into Our Inbox</h1>
+        <p class="tagline">Got ideas, feedback, or just feeling social ? Hit us up — we’re listening!</p>
+        <p>Whether you’re a content beast, a creative soul, or a collab-ready legend — DNBC is all ears. We're building cool stuff and want you to be part of it </p>
+
+        <a href="about.html" class="btn btn-danger mb-4">→ Meet the DNBC Crew</a>
+
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label class="form-label fw-semibold icon-label"><i class="bi bi-person-circle"></i>Full Name</label>
+            <input type="text" class="form-control" placeholder="Your name" required>
+            <div class="invalid-feedback">Your name is required, fam.</div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold icon-label"><i class="bi bi-envelope"></i>Email</label>
+            <input type="email" class="form-control" placeholder="you@vibes.com" required>
+            <div class="invalid-feedback">Drop a valid email </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold icon-label"><i class="bi bi-chat-dots"></i>Your Message</label>
+            <textarea class="form-control" rows="4" placeholder="Spill the tea..." required></textarea>
+            <div class="invalid-feedback">Don’t ghost us — say something </div>
+          </div>
+
+          <button type="submit" class="btn btn-danger px-4">Send it 🚀</button>
+        </form>
+
+        <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+          Boom! We got your message. Talk soon 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section (optional) -->
+  <section class="container py-4">
+    <h5 class="text-center fw-bold mb-3">Find Us IRL </h5>
+    <div class="ratio ratio-16x9 shadow">
+      <iframe src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+    height="200"
+    style="border:0; border-radius:8px; overflow:hidden;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"> frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <script>
+    (() => {
+      const form = document.getElementById('contactForm');
+      const success = document.getElementById('formSuccess');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) {
+          form.classList.add('was-validated');
+          success.classList.add('d-none');
+          return;
+        }
+        form.reset();
+        form.classList.remove('was-validated');
+        success.classList.remove('d-none');
+      });
+    })();
+  </script>
+
   
-  <h4 class="text-danger mt-5 fs-2 text-center">Have a News Tip or Facing a Crime?</h4>
-<p class="fs-3 text-center mx-5">If you're witnessing a crime, corruption, injustice, or have a breaking news tip — contact us immediately. Your identity will remain confidential.</p>
-
-<div class="row m-5">
-  <div class="col-md-6 fs-5">
-    <ul>
-      <li>Email: tips@dnbcnews.com</li>
-      <li>WhatsApp: +44 7654 321 000</li>
-      <li>Emergency Tip Line: +44 800 123 4567 (24/7)</li>
-    </ul>
-    <p><strong>Note:</strong> For urgent matters, call local authorities first and then contact our newsroom.</p>
-  </div>
- <div class="col-md-6">
-    <div class="d-flex justify-content-center">
-      <img src="assets/images/contact  page img2 (1).jpg" alt="Report Crime" class="img-fluid rounded me-2" style="max-width: 48%; border: 2px solid #ff3333;" />
-      <img src="assets/images/contact  page img2 (2).jpg" alt="News Tip" class="img-fluid rounded" style="max-width: 48%; border: 2px solid #ff3333;" />
-    </div>
-  </div>
-</div>
-  <a href="about.html" class="btn btn-danger mx-5">Explore More About US</a>
-  <!-- Feedback Form -->
-<div>
-  <h4 class="text-black mt-5 fs-2 mx-5">We'd love to hear from you!</h4>
-  <form id="feedbackForm" class="mt-3 mx-5" onsubmit="return handleSubmit(event)">
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <label for="name">Name *</label>
-        <input type="text" class="form-control" id="name" required />
-      </div>
-      <div class="col-md-6 mb-3">
-        <label for="email">Email *</label>
-        <input type="email" class="form-control" id="email" required />
-      </div>
-    </div>
-    <div class="mb-3">
-      <label for="subject">Subject *</label>
-      <input type="text" class="form-control" id="subject" />
-    </div>
-    <div class="mb-3">
-      <label for="message">Message *</label>
-      <textarea class="form-control" id="message" rows="4" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-danger" id="button">Send Feedback</button>
-    <div id="formMessage" class="mt-3"></div>
-  </form>
-</div>
 
  <!-- footer -->
   <footer class="bg-black text-white pt-4 pb-3 w-100">
