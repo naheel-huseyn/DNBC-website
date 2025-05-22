@@ -22,13 +22,440 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-   
+    <style>
+         .news-ticker {
+      background: #f32828;
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    
+    }
+      .card-title{
+        font-size: 35px;
+      }
+      .news-img{
+        max-width: 500px;
+        max-height: 600px;
+      }
+      .card-text{
+        font-size: 17px;
+      }
+      .card{
+         background-color: #fff;
+         border-radius: 12px;
+         padding: 20px;
+         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+         transition: transform 0.3s ease;
+      }
+      .card:hover {
+         transform: translateY(-5px);
+      }
+      .section{
+        border-bottom: 4px solid #000;
+        margin: 50px;
+        padding-top: 3px;
+      }
+      .button{
+        align-items: center;
+      }
+    </style>
 </head>
 <body>
     
     <header class="header"></header>
     <script src="assets/JS/navbar.js"></script>
+    <!-- News Brief -->
+       <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">News Brief</h1>
+      <p class="lead fw-bold" style="font-family: sans-serif;">From Breaking News to Deep Insights</p>
+       <p class="lead" style="font-family: sans-serif;">Discover the pulse of the world through timely updates, expert opinions & diverse perspectives. News you can trust-updated every hour.</p>
+    </div>
+  </header>
+  <!-- Scrolling Headline -->
+    <div class="news-ticker">
+    <div class="news-ticker-text">  Breaking News: Global Tourism Taxes Rise to Support Infrastructure | Israel Faces Trade Tensions Amid Gaza Conflict | New Zealand Dinosaur Statue Sparks Debate | Japan Earthquake Shakes Tokyo | Seven youths shot dead during church festivity in Guanajuato, cartel involvement suspected | International Travel Spending in U.S. Expected to Decline by 7% in 2025 | Former Cricketer Herschelle Gibbs to Lead African Lions in Intercontinental Legends Championship | Biden Signs Border Deal Executive Order.
+    </div>
+  </div>
+ <!-- News 1 -->
+  <div class="container my-5">
+    <div class="row">
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-1.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">PM Shehbaz hails armed forces, national unity at <strong>Youm-e-Tashakur</strong> Ceremony</h5>
+        <p class="card-text mx-4 px-5">On May 11, 2025, Pakistan observed Youm-e-Tashakur (Day of Gratitude) nationwide to honor the Pakistan Air Force's (PAF) decisive response to Indian aggression during the recent conflict. The day marked the success of "Operation Bunyan-un-Marsoos," wherein the PAF effectively neutralized multiple Indian aerial threats, including the downing of several Rafale fighter jets.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 2 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-2.png" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Jurassic snark: New Zealand dinosaur sculpture fuels debate</h5>
+        <p class="card-text mx-4 px-5">A dinosaur sculpture in New Zealand has sparked lively debate among locals and online observers, with many questioning its scientific accuracy and artistic design. Nicknamed "Jurassic Snark" by critics, the sculpture—intended to represent a dinosaur from the Mesozoic era—has drawn both amusement and criticism for its exaggerated features and cartoonish appearance. While some appreciate it as a fun and eye-catching piece of public art, others argue that it misrepresents prehistoric creatures and sends the wrong message about paleontology.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 3 -->
+   <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-3.png" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Europa League build-up: Teams and fans arrive in Bilbao before Wednesday's Final</h5>
+        <p class="card-text mx-4 px-5">Bilbao is abuzz as it prepares to host the UEFA Europa League final between Manchester United and Tottenham Hotspur on Wednesday at San Mamés Stadium. An estimated 70,000 to 80,000 English fans have descended upon the city, many without tickets, leading to concerns over accommodation shortages and inflated travel costs. In response, authorities have implemented stringent security measures, including deploying over 3,000 police officers and establishing fan zones to manage the crowds.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 4 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-4.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Israel lets aid into Gaza after 11-week blockade but UN calls it 'Drop in Ocean'</h5>
+        <p class="card-text mx-4 px-5">After an 11-week blockade, Israel has allowed limited humanitarian aid to enter Gaza, marking a small but critical shift in the ongoing crisis. The blockade had severely worsened the already dire humanitarian situation, leaving over two million people with limited access to food, water, and medical supplies. While the entry of aid was welcomed by humanitarian groups, the United Nations described the move as merely a “drop in the ocean,” emphasizing that the scale of suffering in Gaza requires a far greater and sustained flow of assistance.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 5 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-5.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Mexico mourns Navy cadets killed in Brooklyn Bridge ship crash</h5>
+        <p class="card-text mx-4 px-5">Mexico is mourning the tragic loss of its Navy cadets who were killed in a devastating ship crash near the Brooklyn Bridge in New York. The cadets were part of a training mission aboard a Mexican naval vessel when the incident occurred, resulting in multiple fatalities and injuries.Officials are working closely with U.S. authorities to investigate the cause of the crash, while families and colleagues remember the young cadets as dedicated and brave individuals who served their nation with honor.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 6 -->
+         <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-6.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">The Californian mega Floods that start in Japan</h5>
+        <p class="card-text mx-4 px-5">The Japanese Mega Floods that began in early 2025 have wreaked havoc across several regions, particularly in southern and central Japan. Unprecedented rainfall, fueled by a powerful and persistent typhoon system, led to rivers overflowing and severe flash floods that inundated homes, farmland, and infrastructure. Entire communities were forced to evacuate, while emergency crews conducted rescue operations in challenging conditions.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 7 -->
+      <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-7.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">The Press Conference of DG-ISPR and Senior Officials of PAF & Pak Navy</h5>
+        <p class="card-text mx-4 px-5">On May 9, 2025, Pakistan's military leadership held a significant press conference in Islamabad amid escalating tensions with India. The briefing was led by Lieutenant General Ahmed Sharif Chaudhry, Director General of Inter-Services Public Relations (DG ISPR), accompanied by senior officials from the Pakistan Air Force (PAF) and the Pakistan Navy.The conference aimed to address and refute India's allegations concerning Pakistan's involvement in the Pahalgam attack.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 8 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-8.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Sesame Street heads to Netflix after Trump pulled funding</h5>
+        <p class="card-text mx-4 px-5">After facing funding cuts from the Trump administration, which significantly impacted the Public Broadcasting Service (PBS), "Sesame Street" has found a new home on Netflix. The streaming giant has secured a deal to air the show's upcoming 56th season, along with 90 hours of past episodes, ensuring the beloved children's program continues to reach audiences worldwide. Importantly, new episodes will also be available on PBS and the PBS Kids app on the same day, maintaining free access for U.S. viewers.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 9 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-9.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Zelensky accuses Russia of 'buying time' to stall truce talks</h5>
+        <p class="card-text mx-4 px-5">Ukrainian President Volodymyr Zelensky has accused Russia of using ceasefire negotiations as a tactic to "buy time" and avoid making genuine progress toward peace. He claims Moscow is stalling talks while continuing its military aggression, aiming to regroup and strengthen its position on the battlefield. Despite Ukraine agreeing to a proposed 30-day unconditional truce, Russia has rejected it, instead demanding that Ukraine abandon its NATO aspirations and withdraw from occupied territories.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 10 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-10.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Spain clamps down on Airbnb as tourism blacklash returns for summer</h5>
+        <p class="card-text mx-4 px-5">Spain has initiated a significant crackdown on Airbnb, ordering the removal of nearly 66,000 short-term rental listings that violate tourism regulations. This action comes amid growing public protests against overtourism and its impact on housing affordability, particularly in popular destinations like the Balearic and Canary Islands. Many of the listings lacked proper licensing or misrepresented ownership details, contributing to a housing crisis that residents attribute to the proliferation of unregulated holiday rentals.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 11 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-11.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Vietnamese Beauty Queen arrested for fraud over fibre gummies</h5>
+        <p class="card-text mx-4 px-5">Vietnamese beauty queen Nguyen Thuc Thuy Tien, winner of Miss Grand International 2021, has been arrested for consumer fraud related to the promotion and sale of Kera Supergreens Gummies. Marketed as a fiber-rich health supplement, the gummies were found to contain only 16mg of fiber per piece—far less than the advertised 200mg—and relied heavily on sorbitol, a laxative, to produce digestive effects. Tien co-owned the product and earned approximately $270,000 from its sales, despite knowing about its misleading claims.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 12 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-12.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Iran's Khamenei doubts US nuclear talks will lead to agreement</h5>
+        <p class="card-text mx-4 px-5">Iran's Supreme Leader Ayatollah Ali Khamenei has expressed skepticism about the ongoing nuclear negotiations with the United States, stating that he does not expect the talks to yield any meaningful results. Speaking at a memorial for the late President Ebrahim Raisi, Khamenei criticized the U.S. demands, particularly the insistence on halting Iran's uranium enrichment, labeling them as "outrageous" and a "big mistake." He emphasized that Iran will not seek permission from any country to pursue its nuclear program, which Tehran insists is for peaceful purposes.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 13 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-13.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Operation <strong>Bunyan-um-Marsoos</strong></h5>
+        <p class="card-text mx-4 px-5">Operation Bunyan-ul-Marsoos was launched by Pakistan on May 10, 2025, as a direct response to Indian missile and drone attacks on Pakistani airbases. Named after a Quranic term meaning "Unbreakable Wall," Operation Bunyan-ul-Marsoos aimed to neutralize Indian military capabilities and deter further aggression. The Pakistan Air Force (PAF) targeted multiple Indian military installations.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 14 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-14.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Four Obstacles for Republican rebels in Trump's tax bill</h5>
+        <p class="card-text mx-4 px-5">President Donald Trump's sweeping tax and spending proposal, dubbed the "One Big Beautiful Bill," faces significant hurdles from within his own party as conservative Republicans demand deeper cuts and policy changes. Key obstacles include disagreements over the extent of spending reductions, particularly concerning Medicaid and food assistance programs. Some lawmakers, such as Rep. Chip Roy, argue that the proposed cuts are insufficient to address the national debt, which currently stands at $36 trillion.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 15 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-15.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Tanzania President warns 'meddling' Kenyan activists</h5>
+        <p class="card-text mx-4 px-5">Tanzanian President Samia Suluhu Hassan has issued a stern warning to Kenyan activists, accusing them of "meddling" in her country's internal affairs. This follows the detention and deportation of several prominent Kenyan figures, including former Justice Minister Martha Karua and ex-Chief Justice Willy Mutunga, who attempted to attend the treason trial of opposition leader Tundu Lissu in Dar es Salaam. President Samia emphasized that Tanzania would not allow foreign individuals to "spread their indiscipline" or "destroy" the nation's peace and stability.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 16 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-16.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Seven Mexican youths shot dead at Church festivity</h5>
+        <p class="card-text mx-4 px-5">In a tragic incident in central Mexico, seven young men, including minors, were fatally shot during a church-organized festivity in the village of San Bartolo de Berrios, Guanajuato state. The attack occurred around 2:00 a.m. on Monday, as the victims lingered in the central square after the event. Gunmen arrived in a van, opened fire indiscriminately, and left behind banners associated with the Santa Rosa de Lima cartel, indicating the attack's possible cartel-related motive.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 17 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-17.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">'Zombie Spider' fungi among Kew archive Specimens</h5>
+        <p class="card-text mx-4 px-5">The Royal Botanic Gardens, Kew, has embarked on a comprehensive digitisation project to make its extensive Fungarium collection accessible to researchers and the public worldwide. Among the fascinating specimens being archived is Gibellula attenboroughii, a parasitic fungus that infects spiders, manipulating their behaviour before killing them to facilitate spore dispersal. This species, first observed in Northern Ireland and named in honour of Sir David Attenborough, exemplifies the complex interactions between fungi and their hosts.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 18 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-18.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Fortnite faces complaint from actor's union over AI Darth Vader</h5>
+        <p class="card-text mx-4 px-5">The Screen Actors Guild-American Federation of Television and Radio Artists (SAG-AFTRA) has filed an unfair labor practice charge against Epic Games' subsidiary, Llama Productions, over the use of an AI-generated Darth Vader voice in Fortnite. While the late James Earl Jones' estate granted permission for his voice to be digitally replicated, SAG-AFTRA contends that the implementation of this AI voice in the game was done without prior consultation or negotiation with the union.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 19 -->
+     <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-19.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">Alicia Vikander returns to stage after 17 years: 'I'm thrilled, but daunted'</h5>
+        <p class="card-text mx-4 px-5">Oscar-winning actress Alicia Vikander is set to make her UK theatre debut this autumn, returning to the stage after a 17-year hiatus. She will star as Ellida in Henrik Ibsen's The Lady from the Sea, directed by Simon Stone, at London's Bridge Theatre from September 10 for an eight-week run . Vikander, known for her roles in Ex Machina and The Danish Girl, expressed both excitement and apprehension about her return, noting it's her first time on stage as an adult.</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+      <!-- News 20 -->
+    <div class="card p-3 mb-4 shadow-sm" style="max-width: 1300px;">
+  <div class="row g-0">
+    <div class="col-md-4 ">
+      <img src="assets/images/news-20.jpg" class="news-img img-fluid rounded" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title mx-4 px-5 my-2">The New York fort that changed the history</h5>
+        <p class="card-text mx-4 px-5">Fort Amsterdam, constructed in 1625 by the Dutch West India Company at the southern tip of Manhattan, served as the nucleus of the New Netherland colony. Strategically positioned where the Hudson and East Rivers converge, the fort was designed to protect Dutch trading interests and assert control over the region. Beyond its military function, Fort Amsterdam housed the colony's administrative offices, a church, and barracks, becoming the center of governance and daily life in New Amsterdam</p>
+              <!-- Button -->
+     <div class="button text-center my-3 ">
+<a href=".." class="btn btn-danger btn-center text-white">Fade Into More</a>
+    </div>
+      </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Border -->
+   <!-- <div class="section "></div> -->
 </body>
+
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
