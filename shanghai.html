@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Shanghai</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,65 +22,86 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/styling/navbar.css">
-<style>
-    .img{
-        width: 100%;
-      height: 450px;
+   <style>
+    .news-ticker {
+      background: #f32828;
+      color: #fff;
+      font-size: 25px;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .news-image {
+      width: 100%;
+      height: 300px;
       margin-bottom: 15px;
       border-radius: 10px;
     }
-    .social-icon {
+    .card-news {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.short-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+.card-news:hover {
+  transform: translateY(-5px);
+}
+.social-icon {
     transition: color 0.3s ease;
   }
 
   .social-icon:hover {
     color: #e61818d2; /* Bright red */
   }
-</style>
+  </style>
 </head>
 <body>
     
-    <header class="header"></header>
-
-     <header class=" text-dark text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
+    <header class="header">
+          <script src="assets/JS/navbar.js"></script>
+    </header>
+    <header class="text-dark text-white text-center py-4 border border-bottom border-dark" style="background-color: #fff;">
     <div class="container">
-      <h1 class="display-4 fw-semibold">Lifestyle</h1>
+      <h1 class="display-4 fw-semibold text-dark">Shanghai News Headlines</h1>
+      <p class="lead text-dark" style="font-family: sans-serif;">Business, Sports, Food, Weather, Education, Health, Technology & more from China’s financial hub</p>
     </div>
   </header>
-  <div class="container pt-3">
-    <div class="row">
-        <!-- Left Column -->
-  <div class="col-md-6">
-    <h2>Tokyo’s Youth Embrace Minimalism and Zen Living as Harajuku Fashion Evolves</h2>
-    <p>In 2025, Tokyo’s cultural pulse is beating with a renewed sense of balance and boldness. A growing number of young residents are embracing minimalism and Zen-inspired lifestyles, fueling demand for multifunctional home design and mental wellness tools. At the same time, Harajuku continues to lead as a global fashion hotspot—this time blending traditional Japanese elements with daring futuristic aesthetics.</p>
-    <h3>A Shift Toward Simplicity and Wellness</h3>
-    <p>Driven by a desire for clarity and calm in an increasingly digital world, Tokyo’s youth are turning to minimalist living. Influenced by Zen philosophy and sustainability, many are decluttering their homes and lives, opting for spaces that are peaceful, purposeful, and efficient.This shift has created a surge in demand for multifunctional furniture—foldable desks, modular seating, and space-saving storage solutions are now staples in urban apartments. At the same time, mental wellness apps focusing on meditation, mindfulness, and digital detox are topping download charts, reflecting a broader cultural focus on inner well-being.“Minimalism is no longer just about aesthetics,” says lifestyle expert Yuki Nishimura. “It’s about mental clarity and living with intention.”</p>
-<h3>Harajuku: Where Tradition Meets the Future</h3>
-<p>While minimalism defines personal spaces, the streets of Harajuku tell a different story—one of creative explosion. The district remains one of the world’s most iconic fashion centers, where the youth continue to push the boundaries of style. But what’s unique in 2025 is how tradition and innovation are merging.Kimono-inspired silhouettes are being reimagined with holographic fabrics and 3D-printed accessories. Streetwear brands are collaborating with traditional artisans, creating collections that honor heritage while projecting it into the future.This cultural crossover has drawn international fashion houses and influencers back to Harajuku, reinforcing Tokyo’s status as a fashion capital that honors its roots while fearlessly embracing what’s next.</p>
-<h3>Balancing Boldness with Serenity</h3>
-<p>Together, these dual trends of minimalist living and maximalist fashion reflect the diverse ways Tokyo’s younger generations are navigating modern life. They seek serenity at home and self-expression on the street—pioneering a lifestyle that is both grounded and forward-thinking.From Zen-inspired living rooms to avant-garde streetwear, Tokyo in 2025 is proving once again that it doesn’t just follow trends—it defines them.</p>
+     <!-- Business -->
+      <div class="col-12 mb-4 text-center">
+        <h2>Business</h2>
+        <p>Shanghai’s business environment in May 2025 is thriving, driven by strategic investments, strong tech sector performance, and policy measures aimed at enhancing global competitiveness. The city reported 5.1% GDP growth in Q1, fueled largely by information technology and finance, with notable profit surges from companies like Pinduoduo and Xiaohongshu. U.S. chip giant Nvidia is setting up a new R&D center in Shanghai to better serve Chinese markets while navigating U.S. export restrictions, supported by local government incentives. Additionally, Shanghai has announced $32.7 billion in investments for infrastructure and urban renewal projects, backed by innovative financing methods. The city’s May 5 Shopping Festival promotes domestic consumption and targets the “silver economy” — services for elderly citizens — while also supporting foreign trade firms. Shanghai is also gearing up to host the 2025 Global Investment Promotion Conference, welcoming over 500 companies and reinforcing its position as a key global investment hub. Overall, Shanghai stands out as a dynamic and resilient economic center focused on innovation, international collaboration, and sustainable growth.</p>
+      </div>
+      <!-- Scrolling Headline -->
+  <div class="news-ticker">
+    <div class="news-ticker-text">
+      Breaking: Shanghai Tech Expo 2025 opens to record crowds | Heavy rain warning issued for Pudong district | Shanghai Sharks make playoff comeback | Stay updated with DNBC News Shanghai
+    </div>
+  </div> 
+
+      <div class="container my-5">
+    <div class="row" id="news_container">
+
+    
+    </div>
   </div>
-  <!-- Right Column -->
-   <div class="col-md-6">
-    <img src="assets/images/tokyo-lifestyle-article-img1.jpg" class="img" alt="">
-    <img src="assets/images/tokyo-lifestyle-article-img2.jpg"  class="img" alt="">
-    <img src="assets/images/tokyo-lifestyle-article-img3.jpg" class="img" alt="">
-   </div>
-   </div>
-    </div>
-   </div>
 
-   <!-- Geolocation -->
-    <button style="text-align: center ;" onclick="showTokyoLocation()" class="btn btn-center btn-danger mx-5">Get Tokyo Location</button>
-    <p id="locationOutput" class="mx-5"></p>
-    <div id="map" style="width: 100%; height: 300px;"></div>
-
-    <!-- Button -->
-     <div class="text-center my-3">
-<a href="tokyo.html" class="btn btn-danger btn-center text-white">Fade Into Before</a>
-    </div>
-
-   <!-- footer -->
+  <!-- footer -->
   <footer class="bg-black text-white pt-4 pb-3">
   <div class="container">
     <div class="row align-items-start">
@@ -114,7 +135,8 @@
           <a href="https://www.facebook.com/APTECH.Pakistan/" class="text-light fs-5"><i class="social-icon fab fa-facebook-f fa-1x"></i></a>
         </div>
       </div>
-      
+
+    </div>
 
     <!-- Bottom Copyright -->
     <div class="border-top border-secondary mt-1 pt-3 text-center small text-muted">
@@ -123,27 +145,9 @@
   </div>
 </footer>
 
-    <script src="assets/JS/navbar.js"></script>
-    <!-- Geolocation Javascript -->
-     <script>
-      function showTokyoLocation () {
-        const latitude = 35.6764;
-        const longitude = 139.6500;
+  <script src="assets/JS/main.js"></script>
 
-        document.getElementById("locationOutput")
-        .innerHTML = 
-        "Tokyo Location: <br>Latitude: " + latitude + "<br>Longitude: " + longitude;
-        
-        // Map URL
-        const mapURL = 
-        `https://www.google.com/maps/embed?q=${latitude},${longitude}&hl=es;z=14&output=embed`;
-        document.getElementById("map").innerHTML = 
-        `<iframe width="100%" height="100%" style="border:0; loading="lazy" src="${mapURL}"
-        allowfullscreen></iframe>`;
-      }
-     </script>
-
-    </body>
+</body>
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>

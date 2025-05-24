@@ -32,7 +32,7 @@ document.querySelector("header").innerHTML += `
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a  class="dropdown-item" href="tokyo.html">TOKYO</a></li>
                   <li><a class="dropdown-item" href="dehli.html">DELHI</a></li>
-                  <li><a class="dropdown-item" href="shangai.html">SHANGAI</a></li>
+                  <li><a class="dropdown-item" href="shanghai.html">SHANGAI</a></li>
                   <li><a class="dropdown-item" href="dhaka.html">DHAKA</a></li>
                   <li><a class="dropdown-item" href="cairo.html">CAIRO</a></li>
                 </ul>
