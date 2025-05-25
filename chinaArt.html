@@ -4,8 +4,223 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&family=Raleway:ital,wght@1,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- navbar css -->
+<link rel="stylesheet" href="assets/styling/navbar.css">
+ <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .content img {
+      width: 100%;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    .map-section {
+      margin-top: 40px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .trace-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #e50914;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .trace-btn:hover {
+      background-color: #b20710;
+    }
+.social-icon {
+    transition: color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #e61818d2; /* Bright red */
+  }
+  /* save share css */
+.save-share-wrapper {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  align-items: center;
+  position: relative;
+}
+
+.icon-btn {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-btn:hover {
+  background-color: #ccc;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 160px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.related-articles {
+  margin: 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.related-articles h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-left: 5px solid #e50914;
+  padding-left: 10px;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.related-card {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background: #fff;
+}
+
+.related-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.related-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.related-card h3 {
+  padding: 15px;
+  font-size: 16px;
+}
+
+
+  </style>
 </head>
 <body>
+    <header class="header"></header>
+  <!-- Content Section -->
+  <div class="content">
+    <p><strong>By DNBC</strong> | May 19, 2025</p>
+            <h1>Jakarta, Indonesia</h1>
+            <div class="save-share-wrapper">
+  <button class="icon-btn" title="Save Article">
+    <i class="fa-regular fa-bookmark"></i> Save
+  </button>
+
+  <div class="dropdown">
+    <button class="icon-btn" title="Share Article">
+      <i class="fa-solid fa-share-nodes"></i> Share
+    </button>
+    <div class="dropdown-menu">
+      <a href="https://wa.me/?text=Check%20this%20news!" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+    </div>
+  </div>
+</div>
+
+
+    <img src="assets/images/world news no 8.jpg" alt=""> 
     <p>
         China says ready to 'expand practical cooperation' with Russian army
         Beijing says it is a neutral party to the conflict and has made indefatigable efforts for peace
@@ -19,17 +234,66 @@ Beijing says it is a neutral party to the conflict and has made indefatigable ef
 On Thursday, in response to a question linked to Xi's visit asking how China would promote military-to-military ties with Russia, the defence ministry said the relationship was "operating at a high level".
 
 "The Chinese military stands ready to work with the Russian side to further deepen strategic mutual trust, step up strategic communication, and expand practical cooperation," Defence Ministry spokesman Jiang Bin said in a response posted to the social media platform WeChat.
+</p>
 
-The moves would "enrich the content of China-Russia comprehensive strategic partnership of coordination for a new era", Jiang said.
+<img src="assets/images/china-article2.jpg" alt="">
+<p>The moves would "enrich the content of China-Russia comprehensive strategic partnership of coordination for a new era", Jiang said. He added that they would also "contribute to maintaining and strengthening global strategic stability". After a lengthy meeting with President Vladimir Putin on his trip, Xi said China's ties with Russia brought "positive energy" to a turbulent world. He added that both nations stood firm against "hegemonic bullying", an apparent swipe at the United States. Putin, for his part, told reporters he and Xi had held "traditionally warm, friendly" talks and addressed the Chinese leader as his "dear friend".</p>
+ <!-- Map Section -->
+    <div class="map-section">
+      <h2>Event Location</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.49131696936!2d106.66470128446088!3d-6.229720927741866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2s!4v1748163537884!5m2!1sen!2s" 
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
 
-He added that they would also "contribute to maintaining and strengthening global strategic stability".
+<!-- footer -->
+  <footer class="bg-black text-white pt-4 pb-3">
+  <div class="container">
+    <div class="row align-items-start">
 
-After a lengthy meeting with President Vladimir Putin on his trip, Xi said China's ties with Russia brought "positive energy" to a turbulent world.
+      <!-- Logo + Description -->
+      <div class="col-md-4 mb-4 text-center text-md-start">
+        <img src="assets/images/logo.png" alt="DNBC Logo" style="width: 120px; height: auto;" class="mb-2">
+        <p class="text-muted small mt-2">Building digital solutions with heart, hustle, and humanity.</p>
+      </div>
 
-He added that both nations stood firm against "hegemonic bullying", an apparent swipe at the United States.
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4 text-center text-md-start">
+        <h6 class="text-uppercase fw-semibold mb-3">Quick Links</h6>
+        <ul class="list-unstyled small">
+          <li><a href="index.html" class="text-muted text-decoration-none d-block mb-1">Home</a></li>
+          <li><a href="about.html" class="text-muted text-decoration-none d-block mb-1">About Us</a></li>
+          <li><a href="todayinworld.html" class="text-muted text-decoration-none d-block mb-1">Today In World</a></li>
+          <li><a href="business.html" class="text-muted text-decoration-none d-block">Business</a></li>
+          <li><a href="sports.html" class="text-muted text-decoration-none d-block">Sports</a></li>
+          <li><a href="contact.html" class="text-muted text-decoration-none d-block">Contact Us</a></li>
+        </ul>
+      </div>
 
-Putin, for his part, told reporters he and Xi had held "traditionally warm, friendly" talks and addressed the Chinese leader as his "dear friend".
-    </p>
-    <img src="assets/images/world news no 8 .jpg" alt="">
+      <!-- Connect/Social -->
+      <div class="col-md-4 mb-4 text-center text-md-start">
+        <h6 class="text-uppercase fw-semibold mb-3">Let's Connect</h6>
+        <p class="text-muted small">Got ideas? Questions? We’d love to hear from you.</p>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3">
+          <a href="https://www.instagram.com/aptechlearning_official/" class="text-light fs-5"><i class=" social-icon bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/aptech" class="text-light fs-5"><i class="social-icon bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/APTECH.Pakistan/" class="text-light fs-5"><i class="social-icon fab fa-facebook-f fa-1x"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="border-top border-secondary mt-1 pt-3 text-center small text-muted">
+      &copy; 2025 DNBC. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="assets/JS/navbar.js"></script>    
+
 </body>
 </html>
