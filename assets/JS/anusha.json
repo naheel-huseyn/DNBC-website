@@ -1,0 +1,138 @@
+ [
+  {
+    "id":41,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Economic Growth: Rising Foreign Investments and Thriving Startup Scene",
+        "des1":"Despite global economic headwinds, Cairo has emerged as a regional magnet for foreign investment. According to the General Authority for Investment and Free Zones (GAFI), Egypt attracted over $12 billion in FDI in 2024, with Cairo accounting for more than 60% of the inflow. A large portion of this capital came from Gulf countries, especially the United Arab Emirates and Saudi Arabia, who view Egypt as a strategic gateway to Africa. Infrastructure and energy remain key targets, but there is a noticeable shift toward technology and digital services.",
+          "des2":"In early 2025, the Egyptian government announced a new $500 million support package for small and medium-sized enterprises (SMEs) and tech startups. The initiative, part of the “Digital Egypt Strategy,” includes tax incentives, easier access to financing, and partnerships with global tech firms. The Central Bank of Egypt is also pushing forward with a fintech sandbox program to encourage innovation in financial services. These efforts are designed to ensure Cairo becomes a long-term hub for digital transformation in the region.",
+        "img1":"asset/images/cr.image1.jpg",
+        "img2":"asset/images/cr.image2.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"Business"  
+  },
+    {
+    "id":42,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Football Fever: African Cup Qualifiers and Rivalry of Al Ahly and Zamalek",
+        "des1":"In front of a packed Cairo International Stadium, Egypt secured a crucial 3–0 victory against Tanzania in their latest African Cup of Nations qualifier. Goals from Mohamed Salah, Trezeguet, and Mostafa Mohamed sent fans into wild celebrations across the capital. The win puts the Pharaohs at the top of their group, needing just one more point to guarantee qualification. Cairo’s cafes and public screens were filled with supporters draped in red, white, and black, echoing chants and national pride.",
+        "des2":"Cairo’s passion for football has reached fever pitch as both the national team’s AFCON run and the domestic league race capture public attention. Local shops report spikes in jersey sales, while cafes install extra screens to handle packed crowds during match days. The Egyptian Football Association is coordinating with local authorities to manage fan gatherings ahead of the next Egypt home qualifier, expected to draw over 70,000 spectators.",
+        "img1":"asset/images/cr.image3.jpg",
+        "img2":"asset/images/cr.image4.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"sports"
+  },
+  {
+    "id":43,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Culinary Heritage: From Traditional Flavors to Modern Fusion",
+        "des1":"Cairo’s iconic street food scene is making international headlines as travel and food publications spotlight the city’s rich culinary traditions. From the hearty bowls of koshari to sizzling ta’ameya (Egyptian falafel) stands, tourists and locals alike are flocking to the city's historic districts like Khan El Khalili and Downtown Cairo. The recent rise in food tourism has led the Ministry of Tourism to launch a “Taste Egypt” campaign, promoting authentic local dishes as part of Egypt’s cultural identity.",
+        "des2":"The recent Cairo Bites Food Festival drew thousands of food lovers to Heliopolis, where over 100 vendors showcased everything from ancient recipes to modern gourmet bites. Live cooking demos, traditional music, and fusion tastings highlighted the diversity and evolution of Egyptian cuisine. The event, now in its eighth year, emphasized how Cairo’s food culture continues to bridge generations and blend the old with the new.",
+        "img1":"asset/images/cr.image5.jpg",
+        "img2":"asset/images/cr.image6.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"food"
+  },
+    {
+    "id":44,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Weather Update: Mild Days Ahead Amid Dust Storm Warnings",
+        "des1":"As dust levels rise, the Ministry of Health has urged citizens—especially those with respiratory conditions, children, and the elderly—to take necessary precautions. Recommendations include wearing masks outdoors, keeping windows closed, and limiting physical activity during peak storm hours. Several schools in Cairo have issued advisories to parents regarding outdoor activities for students.",
+        "des2":"Despite the dust warnings, public transportation services and flights at Cairo International Airport remain operational with minimal delays reported. Traffic police have also increased their presence on major highways to assist with low-visibility driving conditions. Commuters are advised to allow extra travel time and stay updated via official weather bulletins",
+        "img1":"asset/images/cr.image7.jpg",
+        "img2":"asset/images/cr.image8.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"weather"   
+  },
+   
+    {
+    "id":45,
+        "date":"20 may, 2025,",
+        "heading":"Egypt’s Education Reform: STEM Focus and Digital Learning in Cairo’s Universities",
+        "des1":"As part of Egypt’s broader education reform strategy, universities in Cairo are placing renewed emphasis on STEM education (Science, Technology, Engineering, and Mathematics). Institutions like Cairo University and Ain Shams University have expanded their engineering and computer science programs, introducing updated curricula aligned with international standards. The Ministry of Higher Education stated that these reforms aim to equip students with skills required for the future job market and to boost Egypt's global competitiveness in innovation.",
+        "des2":"To support its digital and STEM focus, the Egyptian government has launched several scholarship programs and training initiatives in AI, robotics, and data science. In collaboration with international partners such as Google and IBM, the Ministry of Communications and Information Technology is providing certifications and hands-on experience for university students. These efforts are part of Egypt’s Vision 2030 plan, which prioritizes education and innovation as key pillars of sustainable development.",
+        "img1":"asset/images/cr.image9.jpg",
+        "img2":"asset/images/cr.image10.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"education"
+  },
+   
+    {
+    "id":46,
+        "date":"20 may, 2025,",
+        "heading":"Egypt’s Education Reform: STEM Focus and Digital Learning in Cairo’s Universities",
+        "des1":"Egypt’s economic reform program, supported by international financial institutions, is gaining momentum in Cairo. Recent policy shifts include reducing subsidies, floating the Egyptian pound, and streamlining business regulations. The government is also working to privatize state-owned enterprises, with several IPOs planned for 2025. While these moves aim to boost investor confidence and reduce public debt, economists caution that inflation and cost-of-living pressures are impacting middle- and low-income families across the capital.",
+        "des2":"As Egypt positions itself as a regional stabilizer, Cairo has been hosting high-level diplomatic talks related to conflicts in Gaza, Sudan, and Libya. Political analysts say Egypt’s strategic location and deep security ties make it a key player in Middle Eastern and African geopolitics. Recent meetings between Egyptian officials and international envoys signal Cairo’s intent to maintain influence in the region, even as domestic economic challenges continue to mount.",
+        "img1":"asset/images/cr.image11.jpg",
+        "img2":"asset/images/cr.image12.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"current affairs"
+  },
+   
+    {
+    "id":47,
+        "date":"20 may, 2025,",
+        "heading":" Cairo’s Cultural Renaissance: Film Festivals and a Revival of Traditional Music",
+        "des1":"The Cairo International Film Festival (CIFF) returned this year with a vibrant lineup of regional and international films, attracting filmmakers, actors, and cinephiles from around the world. Held at the historic Cairo Opera House, the event featured over 90 films from 40 countries, with a special focus on Arab storytelling and emerging African talent. Organizers say the festival reflects Cairo’s growing influence as a cultural hub and a platform for cinematic exchange across the Global South.",
+        "des2":"In addition to festivals and concerts, Cairo’s cultural institutions are launching initiatives to support emerging artists. The Ministry of Culture, in collaboration with private sponsors, recently announced a funding program for young filmmakers and musicians. Meanwhile, historic districts like Downtown Cairo and El Moez Street are being revitalized with art galleries, street performances, and cultural walking tours — all part of a broader push to celebrate and preserve Egypt’s artistic identity.",
+        "img1":"asset/images/cr.image13.jpg",
+        "img2":"asset/images/cr.image14.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"entertainment"   
+  },
+   
+    {
+    "id":48,
+        "date":"20 may, 2025,",
+        "heading":"airo’s Healthcare Expansion: New Facilities and Public Health Initiatives",
+        "des1":"Cairo’s healthcare sector is undergoing rapid growth, with several new public and private hospitals opening across the capital. Recent additions include the Cairo Medical City project in New Cairo and expanded units at Kasr Al-Ainy Hospital. These facilities are equipped with modern technologies and specialized departments, aiming to improve access to high-quality care for millions of residents. The Ministry of Health has stated that these developments are part of a broader effort to decentralize services and reduce patient loads on central hospitals.",
+        "des2":"As part of its health reform agenda, Egypt’s government has rolled out new public health initiatives targeting chronic diseases, maternal health, and vaccinations. The “100 Million Healthy Lives” campaign has resumed with a focus on diabetes and heart disease screenings across Cairo neighborhoods. Mobile clinics have also been deployed to underserved areas, offering free checkups, health education, and referrals.",
+        "img1":"asset/images/cr.image15.jpg",
+        "img2":"asset/images/cr.image16.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"health"   
+  },
+     {
+    "id":49,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Tech Boom: Fintech, AI, and Smart City Innovations Lead the Way",
+        "des1":"Cairo’s fintech sector is rapidly expanding, with startups and established firms launching new digital payment solutions, mobile banking apps, and blockchain services. Recent reports show that fintech investments in Cairo exceeded $200 million in 2024, driven by growing consumer demand and supportive regulations from the Central Bank of Egypt. Companies like Fawry, Paymob, and ValU continue to lead the market, offering innovative services that enhance financial inclusion across the city and beyond.",
+        "des2":"Cairo is actively implementing smart city technologies as part of its urban development plans. The New Administrative Capital project incorporates IoT-enabled infrastructure, smart energy management, and automated public services to improve quality of life and sustainability. Pilot programs in districts like New Cairo feature smart traffic lights, digital surveillance systems, and sensor-based waste management. Experts say these initiatives could serve as a model for other cities in the MENA region.",
+        "img1":"asset/images/cr.image17.jpg",
+        "img2":"asset/images/cr.image18.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"Technology"
+  },
+     {
+    "id":50,
+        "date":"20 may, 2025,",
+        "heading":"Cairo’s Green Shift: Sustainable Living, Fitness Culture, and Wellness Tourism on the Rise",
+        "des1":"Cairo is witnessing a growing movement toward sustainable living as city planners and residents prioritize green spaces and eco-friendly practices. Recent projects, such as the expansion of Zamalek’s urban gardens and the creation of public bike lanes in New Cairo, are aimed at reducing pollution and enhancing quality of life. The government’s new Green Cairo Initiative encourages recycling programs, solar energy adoption, and water conservation efforts across residential neighborhoods.",
+        "des2":"The fitness scene in Cairo is booming, with a surge in gyms, yoga studios, and outdoor workout groups catering to a health-conscious population. Popular venues like Club 55 and The Fitness Lab report record membership growth, while social media influencers are promoting wellness lifestyles that combine physical activity with mindful eating. Corporate wellness programs are also on the rise, reflecting an increasing awareness of holistic health in the city",
+        "img1":"asset/images/cr.image19.jpg",
+        "img2":"asset/images/cr.image20.jpg",
+        "location":"egypt,cairo",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769398213!2d31.176061852598945!3d30.059462760939702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2s!4v1748171914711!5m2!1sen!2s", 
+        "city":"cairo",
+        "category":"Lifestyle"  
+  }
+]
+   
+   
