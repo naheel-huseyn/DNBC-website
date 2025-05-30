@@ -44,4 +44,7 @@ document.querySelector("header").innerHTML += `
           </div>
         </div>
       </nav>
+      <div style="position:fixed; bottom:10px; right:10px">
+      <a href="#" class="rounded-circle bg-danger p-2"><i class="fa-solid fa-arrow-up text-white"></i></a>
+      </div>
       `
