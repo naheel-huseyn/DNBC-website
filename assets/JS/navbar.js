@@ -26,7 +26,7 @@ document.querySelector("header").innerHTML += `
                 <a class="nav-link px-2 text-white fw-semibold" href="sports.html">SPORTS</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle px-2 text-white fw-semibold " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle px-2 text-white fw-semibold" id="topCitiesDropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   TOP CITIES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
