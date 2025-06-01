@@ -1,0 +1,137 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* news ticker */
+    .news-ticker {
+      background: #f32828;
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .news-ticker-text {
+      display: inline-block;
+      animation: scroll-left 15s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    /* news card */
+  .card h5 p{
+    text-decoration: none;
+  }
+  .card h5:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  .card p:hover {
+    text-decoration: underline;
+    color: red;
+  }
+
+  /* weather box */
+.weather-box {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.weather-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+  display: flex;
+  right: 0;
+  top: 0;
+  width: 300px;
+  padding: 20px;
+} 
+
+.tab-widget {
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs li {
+  flex: 1;
+  text-align: center;
+  padding:10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.tabs .active {
+  background-color: #ff3c3c;
+  color: #fff;
+}
+
+.tab-content {
+  padding: 10px;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.news-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.news-item h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.news-item span {
+  font-size: 12px;
+  color: #aaa;
+}
+/* main news */
+  .card-title{
+        font-size: 35px;
+      }
+      .news-img{
+        max-width: 500px;
+        max-height: 600px;
+      }
+      .card-text{
+        font-size: 17px;
+      }
+      .card{
+         background-color: #fff;
+         border-radius: 12px;
+         padding: 20px;
+         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+         transition: transform 0.3s ease;
+      }
+      .card:hover {
+         transform: translateY(-5px);
+      }
+    .footer{
+      color: white;
+    }
+    .footer ul li a{
+      color: white;
+    }
