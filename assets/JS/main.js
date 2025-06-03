@@ -30,6 +30,7 @@ function renderCards(newsList) {
             <div class="col-md-6 mb-4">
                 <div class="card shadow-sm">
                     <div class="card-news text-center">
+                       <h3 "mt-3">${news.category}</h3>
                         <img src="assets/images/${news.img1}" class="news-image w-100">
                         <h4 class="mt-3">${news.heading}</h4>
                         <p class="short-text">${news.des1?.substring(0, 150) || "No description"}...</p>
