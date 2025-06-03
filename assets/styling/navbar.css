@@ -8,7 +8,7 @@
     top: 0%;
 }
 .navbar-nav .nav-link:hover{
-  color: rgba(239, 27, 27, 0.747);
+  color: rgba(239, 27, 27, 0.747) !important;
 }
 .navbar-nav .nav-link .dropdown-toggle:hover{
   color: white !important
